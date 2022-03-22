@@ -31,4 +31,17 @@ function completeTask(event){
         }
 }
 
+let buttons = document.getElementById('buttons');
+let btnClean = document.createElement('button');
+btnClean.id = 'apaga-tudo';
+btnClean.innerText = 'Apagar tudo';
+buttons.appendChild(btnClean);
+btnClean.addEventListener('click', removeItens);
+
+function removeItens(){
+    let itemLista = document.querySelectorAll('.list-item');
+    for(let index = 0;index < itemLista.length;index += 1){
+        taskList.removeChild(itemLista[index]);
+    };
+};
 
