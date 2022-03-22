@@ -45,3 +45,16 @@ function removeItens(){
     };
 };
 
+let btnRemoveCompleted = document.createElement('button');
+btnRemoveCompleted.id = 'remover-finalizados';
+btnRemoveCompleted.innerText = 'Apagar finalizadas';
+buttons.appendChild(btnRemoveCompleted);
+btnRemoveCompleted.addEventListener('click', removeCompleted);
+
+function removeCompleted(){
+    let completedItens = document.querySelectorAll('.completed');
+    for(let index = 0;index < completedItens.length;index += 1){
+        taskList.removeChild(completedItens[index]);
+    }
+}
+
