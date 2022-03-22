@@ -1,3 +1,94 @@
+body{
+    background-color: rgb(236, 236, 152);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+header{
+    text-align: start;
+    width: 600px;
+    margin: auto;
+    border-radius: 15px 15px 0 0;
+}
+
+header h1 {
+    margin: 0 0 20px 20px;
+    padding-top: 10px;
+}
+
+header p {
+    margin: 0 0 0 20px;
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    padding-top: 40px;
+    height: auto;
+}
+
+main button {
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+main button:hover{
+    background-color: rgb(236, 236, 152);
+}
+
+#texto-tarefa{
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: lightgray;
+    border-style: none;
+}
+
+main ol {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list-item{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+section{
+    width: 600px;
+    margin: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+section button {
+    margin: 20px 20px 0 20px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+section button:hover {
+    background-color: red;
+    color: white;
+}
+
 .selected{
     background-color: gray;
 }
