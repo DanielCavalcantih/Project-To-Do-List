@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap');
+
 body{
-    background-color: rgb(236, 236, 152);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(44, 44, 44);
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0;
+}
+#main{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 div{
     background-color: white;
     width: 600px;
-    margin: auto;
     border-radius: 15px 15px 15px 15px;
     box-shadow: 5px 5px 5px black;
 }
@@ -14,7 +24,6 @@ div{
 header{
     text-align: start;
     width: 600px;
-    margin: auto;
     border-radius: 15px 15px 0 0;
 }
 
@@ -37,7 +46,7 @@ main{
 main button {
     cursor: pointer;
     margin-left: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sansita Swashed', cursive;
     padding: 8px;
     border-radius: 10px;
     transition: 400ms;
@@ -52,12 +61,13 @@ main button:hover{
     padding: 8px;
     border-radius: 10px;
     background-color: lightgray;
+    font-family: 'Sansita Swashed', cursive;
     border-style: none;
 }
 
 main ol {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sansita Swashed', cursive;
 }
 
 .list-item{
@@ -78,7 +88,7 @@ section{
 section button {
     margin: 20px 20px 0 20px;
     cursor: pointer;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Sansita Swashed', cursive;
     padding: 8px;
     border-radius: 10px;
     transition: 400ms;
